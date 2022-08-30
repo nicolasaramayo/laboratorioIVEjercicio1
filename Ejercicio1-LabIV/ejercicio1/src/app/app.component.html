@@ -1,0 +1,19 @@
+{{title}}
+<br>
+<br>
+<input type="number" [(ngModel)]="numeroUno">
+<br>
+<input type="number" [(ngModel)]="numeroDos">
+<br>
+<button (click)="add()">Sumar</button>
+<button (click)="average()">Promedio</button>
+<button (click)="clear()">Limpiar</button>
+<br>
+<input type="number" [(ngModel)]="resultadoSuma">
+<br>
+<input type="number" [(ngModel)]="resultadoPromedio">
+<br>
+
+
+
+<router-outlet></router-outlet>
